@@ -54,8 +54,24 @@ bnm(newf);
 f2(f1);
 
 
+let obj1 = {
+name : "mursalim",
+age :"67",
+hobey : "student"
+}
+let obj3 =obj1;
+obj3.hobey = "klopoo"
+console.log (obj1.name,obj3.hobey);
 
 
+function sum (a,b){
+    let c = a+b;
+    return c;
+}console.log(sum(10,67));
+
+
+let gu= (a,b) => a+b;
+console.log(gu(45,6));
 
 
 
